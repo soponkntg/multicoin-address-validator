@@ -9,6 +9,7 @@ function validateAddress(address, currency, networkType) {
 
     var res = address.split(':');
     if (res.length === 1) {
+        if (address[0] === 'p' || address[0] === 'q') return false; // Only accept p/q format with prefix 'bitcoincash'
         raw_address = address
     } else {
         if (res[0] !== 'bitcoincash') {
