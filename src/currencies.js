@@ -479,7 +479,11 @@ var CURRENCIES = [{
         name: 'Tezos',
         symbol: 'xtz',
         validator: XTZValidator
-    }
+    }, {
+        name: 'ZipmexToken',
+        symbol: 'zmt',
+        validator: ETHValidator
+      }
 ];
 
 
