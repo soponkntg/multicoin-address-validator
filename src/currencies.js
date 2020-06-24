@@ -9,6 +9,7 @@ var TRXValidator = require('./tron_validator');
 var NEMValidator = require('./nem_validator');
 var LSKValidator = require('./lisk_validator');
 var BCHValidator = require('./bch_validator');
+var LTCValidator = require('./litecoin_validator');
 var XLMValidator = require('./stellar_validator');
 var EOSValidator = require('./eos_validator');
 var XTZValidator = require('./tezos_validator');
@@ -35,7 +36,7 @@ var CURRENCIES = [{
     name: 'LiteCoin',
     symbol: 'ltc',
     addressTypes: { prod: ['30', '05', '32'], testnet: ['6f', 'c4', '3a'] },
-    validator: BTCValidator
+    validator: LTCValidator
 }, {
     name: 'PeerCoin',
     symbol: 'ppc',
