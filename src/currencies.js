@@ -268,6 +268,10 @@ var CURRENCIES = [{
     symbol: 'bnt',
     validator: ETHValidator
 }, {
+    name: 'C8Plus',
+    symbol: 'c8p',
+    validator: ETHValidator
+}, {
     name: 'Civic',
     symbol: 'cvc',
     validator: ETHValidator
@@ -332,12 +336,24 @@ var CURRENCIES = [{
     symbol: 'swt',
     validator: ETHValidator
 }, {
+    name: 'Swipe',
+    symbol: 'sxp',
+    validator: ETHValidator
+}, {
     name: 'TrueUSD',
     symbol: 'tusd',
     validator: ETHValidator
 }, {
+    name: 'USDCoin',
+    symbol: 'usdc',
+    validator: ETHValidator
+}, {
     name: 'Wings',
     symbol: 'wings',
+    validator: ETHValidator
+}, {
+    name: 'yearn.finance',
+    symbol: 'yfi',
     validator: ETHValidator
 }, {
     name: '0x',
