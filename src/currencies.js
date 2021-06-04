@@ -321,6 +321,11 @@ var CURRENCIES = [
         validator: ETHValidator,
     },
     {
+        name: "Binance Coin",
+        symbol: "bnb",
+        validator: ETHValidator,
+    },
+    {
         name: "C8Plus",
         symbol: "c8p",
         validator: ETHValidator,
@@ -522,6 +527,11 @@ var CURRENCIES = [
     {
         name: "Stellar",
         symbol: "xlm",
+        validator: XLMValidator,
+    },
+    {
+        name: "SIX",
+        symbol: "six",
         validator: XLMValidator,
     },
     {
