@@ -280,6 +280,11 @@ var CURRENCIES = [
         validator: ETHValidator,
     },
     {
+        name: "Axie Infinity",
+        symbol: "axs",
+        validator: ETHValidator,
+    },
+    {
         name: "Callisto",
         symbol: "clo",
         validator: ETHValidator,
