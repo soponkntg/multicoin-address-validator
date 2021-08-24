@@ -331,6 +331,11 @@ var CURRENCIES = [
         validator: ETHValidator,
     },
     {
+        name: "Band Protocol",
+        symbol: "BAND",
+        validator: ETHValidator,
+    },
+    {
         name: "Binance Coin",
         symbol: "bnb",
         validator: ETHValidator,
