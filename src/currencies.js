@@ -311,6 +311,11 @@ var CURRENCIES = [
         validator: XMRValidator,
     },
     {
+        name: "Aave Coin",
+        symbol: "aave",
+        validator: ETHValidator,
+    },
+    {
         name: "Aragon",
         symbol: "ant",
         validator: ETHValidator,
