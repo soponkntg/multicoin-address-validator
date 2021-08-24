@@ -386,6 +386,11 @@ var CURRENCIES = [
         validator: ETHValidator,
     },
     {
+        name: "Origin Protocol",
+        symbol: "ogn",
+        validator: ETHValidator,
+    },
+    {
         name: "OmiseGO",
         symbol: "omg",
         validator: ETHValidator,
