@@ -332,7 +332,7 @@ var CURRENCIES = [
     },
     {
         name: "Band Protocol",
-        symbol: "BAND",
+        symbol: "band",
         validator: ETHValidator,
     },
     {
@@ -358,6 +358,11 @@ var CURRENCIES = [
     {
         name: "Compound",
         symbol: "comp",
+        validator: ETHValidator,
+    },
+    {
+        name: "Cartesi",
+        symbol: "ctsi",
         validator: ETHValidator,
     },
     {
