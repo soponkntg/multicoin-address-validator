@@ -331,6 +331,11 @@ var CURRENCIES = [
         validator: ETHValidator,
     },
     {
+        name: "BlockTrade",
+        symbol: "btt",
+        validator: ETHValidator,
+    },
+    {
         name: "C8Plus",
         symbol: "c8p",
         validator: ETHValidator,
