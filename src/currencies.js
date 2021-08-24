@@ -326,6 +326,11 @@ var CURRENCIES = [
         validator: ETHValidator,
     },
     {
+        name: "Balancer",
+        symbol: "bal",
+        validator: ETHValidator,
+    },
+    {
         name: "Bancor",
         symbol: "bnt",
         validator: ETHValidator,
@@ -340,11 +345,11 @@ var CURRENCIES = [
         symbol: "bnb",
         validator: ETHValidator,
     },
-    {
-        name: "BlockTrade",
-        symbol: "btt",
-        validator: ETHValidator,
-    },
+    // {
+    //     name: "BlockTrade",
+    //     symbol: "btt",
+    //     validator: ETHValidator,
+    // },
     {
         name: "C8Plus",
         symbol: "c8p",
@@ -550,6 +555,17 @@ var CURRENCIES = [
         validator: TRXValidator,
     },
     {
+        name: "BitTorrent",
+        symbol: "btt",
+        validator: TRXValidator,
+    },
+
+    {
+        name: "JUST",
+        symbol: "jst",
+        validator: TRXValidator,
+    },
+    {
         name: "Nem",
         symbol: "xem",
         validator: NEMValidator,
@@ -662,6 +678,124 @@ var CURRENCIES = [
     {
         name: "ZipmexToken",
         symbol: "zmt",
+        validator: ETHValidator,
+    },
+
+    {
+        name: "Kyber Network Crystal v2",
+        symbol: "knc",
+        validator: ETHValidator,
+    },
+
+    {
+        name: "Waltonchain",
+        symbol: "wtc",
+        validator: ETHValidator,
+    },
+
+    {
+        name: "UMA",
+        symbol: "uma",
+        validator: ETHValidator,
+    },
+
+    {
+        name: "Loopring",
+        symbol: "lrc",
+        validator: ETHValidator,
+    },
+
+    {
+        name: "Chiliz",
+        symbol: "chz",
+        validator: ETHValidator,
+    },
+
+    {
+        name: "Hydro Protocol",
+        symbol: "hot",
+        validator: ETHValidator,
+    },
+
+    {
+        name: "SushiSwap",
+        symbol: "sushi",
+        validator: ETHValidator,
+    },
+
+    {
+        name: "Golden Ratio Token",
+        symbol: "grt",
+        validator: ETHValidator,
+    },
+
+    {
+        name: "Smooth Love Potion",
+        symbol: "slp",
+        validator: ETHValidator,
+    },
+    {
+        name: "Venus", // Binance smart chain
+        symbol: "xvs",
+        validator: ETHValidator,
+    },
+
+    {
+        name: "Alpha Finance Lab", // Binance smart chain
+        symbol: "alpha",
+        validator: ETHValidator,
+    },
+    {
+        name: "Ankr",
+        symbol: "ankr",
+        validator: ETHValidator,
+    },
+
+    {
+        name: "WazirX",
+        symbol: "wrx",
+        validator: ETHValidator,
+    },
+
+    {
+        name: "Kava.io",
+        symbol: "kava",
+        validator: ETHValidator,
+    },
+
+    {
+        name: "THORChain",
+        symbol: "rune",
+        validator: ETHValidator,
+    },
+    {
+        name: "Ontology",
+        symbol: "ont",
+        validator: ETHValidator,
+    },
+    {
+        name: "Serum",
+        symbol: "srm",
+        validator: ETHValidator,
+    },
+    {
+        name: "COTI",
+        symbol: "coti",
+        validator: ETHValidator,
+    },
+    {
+        name: "Elrond",
+        symbol: "egld",
+        validator: ETHValidator,
+    },
+    {
+        name: "Fantom",
+        symbol: "ftm",
+        validator: ETHValidator,
+    },
+    {
+        name: "Filecoin",
+        symbol: "fil",
         validator: ETHValidator,
     },
 ];
