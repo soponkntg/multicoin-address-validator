@@ -386,6 +386,11 @@ var CURRENCIES = [
         validator: ETHValidator,
     },
     {
+        name: "Paxos",
+        symbol: "pax",
+        validator: ETHValidator,
+    },
+    {
         name: "TenX",
         symbol: "pay",
         validator: ETHValidator,
