@@ -13,6 +13,7 @@ var LTCValidator = require("./litecoin_validator");
 var XLMValidator = require("./stellar_validator");
 var EOSValidator = require("./eos_validator");
 var XTZValidator = require("./tezos_validator");
+var Base58Validator = require("./base58_validator");
 
 // defines P2PKH and P2SH address types for standard (prod) and testnet networks
 var CURRENCIES = [
@@ -798,6 +799,36 @@ var CURRENCIES = [
         symbol: "fil",
         validator: ETHValidator,
     },
+    {
+        name: "Crypto Gaming United", // Binance smart chain
+        symbol: "cgu",
+        validator: ETHValidator,
+    },
+    {
+        name: "XAUD",
+        symbol: "xaud",
+        validator: ETHValidator,
+    },
+    {
+        name: "GuildFi",
+        symbol: "gf",
+        validator: ETHValidator,
+    },
+    {
+        name: "Wonderland",
+        symbol: "time",
+        validator: ETHValidator,
+    },
+    {
+        name: "Alkemi Network DAO",
+        symbol: "alk",
+        validator: ETHValidator,
+    },
+    {
+        name: "Solana",
+        symbol: "sol",
+        validator: Base58Validator,
+    },
 ];
 
 module.exports = {
@@ -821,6 +852,6 @@ module.exports = {
 //     .forEach(c => console.log(`* ${c.name}/${c.symbol} \`'${c.name}'\` or \`'${c.symbol}'\` `));
 
 //spit out keywords for package.json
-// CURRENCIES
-//     .sort((a, b) => a.name.toUpperCase() > b.name.toUpperCase() ? 1 : -1)
-//     .forEach(c => console.log(`"${c.name}","${c.symbol}",`));
+// CURRENCIES.sort((a, b) =>
+//     a.name.toUpperCase() > b.name.toUpperCase() ? 1 : -1
+// ).forEach((c) => console.log(`"${c.name}","${c.symbol}",`));
