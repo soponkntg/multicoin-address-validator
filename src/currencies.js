@@ -828,6 +828,8 @@ var CURRENCIES = [
         name: "Solana",
         symbol: "sol",
         validator: Base58Validator,
+        maxLength: 44,
+        minLength: 43,
     },
 ];
 
