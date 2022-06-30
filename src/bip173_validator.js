@@ -1,6 +1,6 @@
 var bech32 = require("./crypto/bech32");
 
-var DEFAULT_NETWORK_TYPE = "prod";
+var DEFAULT_NETWORK_TYPE = "both";
 
 // bip 173 bech 32 addresses (https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki)
 module.exports = {
